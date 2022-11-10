@@ -1,0 +1,43 @@
+[
+
+{
+	"id": 1,
+	"nombre": "Juan",
+	"empresa": "Distribuidores Electrónicos  S.A. de C.V.",
+	"puesto": "Gerente"
+
+},
+
+{
+	"id": 2,
+	"nombre": "Adolfo",
+	"empresa": "Electrónicos todas las marcas S.A. de C.V.",
+	"puesto": "Gerente"
+
+},
+
+{
+	"id": 3,
+	"nombre": "Mónica",
+	"empresa": "Electrónicos Centro Histórico  S.A. de C.V.",
+	"puesto": "Gerente"
+
+},
+
+{
+	"id": 4,
+	"nombre": "Alejandra",
+	"empresa": "Geek Electronic  S.A. de C.V.",
+	"puesto": "Gerente"
+
+},
+
+{
+	"id": 5,
+	"nombre": "Jessica",
+	"empresa": "Electrónicos para la oficicina y el hogar S.A. de C.V.",
+	"puesto": "Gerente"
+
+}
+
+]

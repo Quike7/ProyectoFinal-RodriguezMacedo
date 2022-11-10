@@ -1,0 +1,39 @@
+
+main > .container {
+  padding: 60px 15px 0;
+}
+
+
+
+.tp {
+margin-top: 80px;
+}
+
+ 
+body {
+  background-image: url('../images/fondo.png');
+  background-position: [ top | center | bottom ];
+  background: cover;
+}
+                
+
+.logoGeeK {
+width:300px;
+margin-bottom: 40px;
+margin-top: 10px;
+}
+
+
+/* barra scrollbar space */
+::-webkit-scrollbar {
+    width: 15px;  /* remove scrollbar space */
+   background-color: rgb(5, 4, 170); /* optional: just make scrollbar invisible */
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgb(255, 249, 23);
+  }
+/* barra scrollbar space */
+
+
+
+

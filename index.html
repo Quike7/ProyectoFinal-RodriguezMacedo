@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/styles.css" /> 
+    <link  rel = "stylesheet"  href = "css/animate.css" >
+    <title>Hello, world!</title>
+  </head>
+  <body>
+
+    <header>
+      <!-- Fixed navbar -->
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Fixed navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header><br>
+
+
+    <div class="container tp">
+    <h1 class="text-white">ENTREGA 4 PROYECTO FINAL<br> Enrique Rodríguez Macedo</h1>
+    <p class="text-white">Objetivos generales: <br>
+      ✓ Presentar una aplicación que utilice
+      Javascript para solucionar un problema
+      real al usuario. <br>
+      Utilizar Javascript para mejorar la
+      interacción y dinamismo de la página,
+      generando una interfaz coherente y
+      atractiva.<br><br>
+      Objetivos específicos:<br>
+      ✓ Contar con una estructura de datos
+      clara, basada en Arrays y Objetos.<br>
+      ✓ Utilizar funciones,
+      condicionales e iteradores
+      para manipular los datos de
+      la app.<br>
+      ✓ Generar y manipular el DOM.
+      Crear vistas a partir de datos
+      de la app y generar eventos
+      para responder a la
+      interacción del usuario.
+      Utilizar alguna librería
+      relevante para el simulador.<br>
+      ✓ Utilizar asincronía y fetch
+      para cargar datos estáticos o
+      consumir una API.
+
+
+    </p>
+  </div>
+
+ 
+  <div class="container">
+    <div id="contenido" class="text-white"></div> 
+    <button class="btn btn-primary d-none" id="btnTxt">Leer Txt</button><br>
+    <button class="btn btn-primary" id="btnJson">Fecha en que estarán disponibles los productos (Leer Json)</button><br>
+    <button class="btn btn-primary" id="btnArray">Mayoristas que pueden ver los productos en almacen (Leer Array)</button><br>
+    <button class="btn btn-primary" id="btnAPI">!Inspirate! Aquí puedes ver equipos en distintos espacios de trabajo (Leer API)</button><br>
+  </div>
+
+  <div class="container">
+  <img src="images/logo.png" class="logoGeeK col-sm-8 animate__animated animate__swing animate__delay-1s animate__slower animate__infinite" alt="LOGO">	
+    <div class="row text-center">
+        <!-- Elementos generados a partir del JSON -->
+        <main id="items" class="col-sm-8 row"></main>
+        <!-- Carrito de compra -->
+        <aside class="col-sm-4">
+            <h2><img src="images/carrito.png"></h2>
+            <!-- Elementos / lista / produtos del carrito -->
+            <ul id="carrito" class="list-group"></ul>
+            <hr>
+            <!-- Precio total -->
+            <p class="text-right text-white">Total: <span id="total"></span> pesos</p>
+            <button id="boton-vaciar" class="btn btn-danger">Vaciar</button>
+        </aside>
+    </div>
+</div>
+<br>
+
+<footer class="footer mt-auto py-3 bg-light">
+  <div class="container">
+    <span class="text-muted">e-commerce.</span>
+  </div>
+</footer>
+
+  <script src="js/miarchivo.js"></script>
+  <script src="js/app.js"></script> 
+
+
+     
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
